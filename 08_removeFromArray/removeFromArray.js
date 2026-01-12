@@ -1,6 +1,6 @@
-const removeFromArray = function(array, filterWord) {
+const removeFromArray = function(array, filterWord, filterWord2) {
 
-    return array.filter((word) => word != filterWord);
+ return array.filter((word) => word != filterWord).filter((word) => word != filterWord2);
 
 };
 
